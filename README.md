@@ -11,7 +11,7 @@ This Python script implements a multithreaded subdomain finder using brute-forci
 
 **Requirements:**
 
-- Python 3.x
+- Python 3.x 
 - `requests` library (install using `pip install requests`)
 
 **Usage:**
