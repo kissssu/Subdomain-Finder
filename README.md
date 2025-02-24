@@ -1,3 +1,5 @@
+Currently closed.
+
 # Subdomain Finder
 
 This Python script implements a multithreaded subdomain finder using brute-forcing techniques. It's designed to be an intermediate-level project for those learning about threading and network programming.
