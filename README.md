@@ -15,7 +15,7 @@ This Python script implements a simple subdomain finder using a wordlist. It's a
 
 ## How to Run on Your Local Machine:
 
-1. **Clone (Optional):** If the project is in a Git repository: `git clone `
+1. **Clone (Optional):** If the project is in a Git repository: `git clone https://github.com/kissssu/Subdomain-Finder.git`
 2. **Install `requests`:** `pip install requests`
 3. **Wordlist:** Create `subdomains.txt` (one subdomain per line).
 4. **Permissions (If needed):** `chmod +x subdomain_finder.py` (Linux/macOS).
