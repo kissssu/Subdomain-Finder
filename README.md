@@ -11,7 +11,7 @@ This Python script implements a simple subdomain finder using a wordlist. It's a
 ## Requirements:
 
 * Python 3.x
-* `requests` library (install using `pip install requests`)
+* `requests` library (install using `pip install requests` or `pip3 install requests`)
 
 ## How to Run on Your Local Machine:
 
