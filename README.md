@@ -24,7 +24,7 @@ This Python script implements a simple subdomain finder using a wordlist. It's a
 ## Example:
 ```
 Enter target domain: google.com
-Enter path to subdomains wordlist: /home/kissu/Kissu/Cyber-Things/wordlists/directory-medium-2-3.txt    
+Enter path to subdomains wordlist: /path/to/wordlist.txt    
 [+] Found: images.google.com
 [+] Found: news.google.com
 [+] Found: about.google.com
