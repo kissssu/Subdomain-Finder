@@ -1,48 +1,43 @@
-Currently closed.
+# Subdomain Finder (Non-Threaded)
 
-# Subdomain Finder
+This Python script implements a simple subdomain finder using a wordlist. It's a beginner-friendly project for those learning about basic network programming and file handling in Python.  This version *does not* use multithreading.
 
-This Python script implements a multithreaded subdomain finder using brute-forcing techniques. It's designed to be an intermediate-level project for those learning about threading and network programming.
+## Features:
 
-**Features:**
+* Checks for subdomains using a provided wordlist.
+* Provides clear output of found subdomains.
+* Includes basic error handling for missing wordlist files.
 
-- Checks for subdomains using a provided wordlist.
-- Utilizes multithreading for improved performance.
-- Handles potential network errors gracefully.
-- Provides clear output of found subdomains.
+## Requirements:
 
-**Requirements:**
+* Python 3.x
+* `requests` library (install using `pip install requests`)
 
-- Python 3.x 
-- `requests` library (install using `pip install requests`)
-
-**Usage:**
+## Usage:
 
 1. Save the script as `subdomain_finder.py`.
-2. Prepare a text file containing subdomains to check (e.g., "subdomains.txt").
+2. Prepare a text file containing subdomains to check (e.g., "subdomains.txt"), one subdomain per line.
 3. Run the script from your terminal: `python subdomain_finder.py`
+4. The script will prompt you for the target domain and the path to the subdomains wordlist. It will then scan for subdomains and print the found ones.
 
-The script will prompt you for the target domain and the path to the subdomains wordlist. It will then scan for subdomains and print the found ones.
-
-**Example:**
+## Example:
 ```
 Enter target domain: google.com
-Enter path to subdomains wordlist: wordlist.txt
-[+] Found: admin.google.com
-
-Found Subdomains:
-admin.google.com
-
-Execution time: 9.32 seconds
+Enter path to subdomains wordlist: /home/kissu/Kissu/Cyber-Things/wordlists/directory-medium-2-3.txt    
+[+] Found: images.google.com
+[+] Found: news.google.com
+[+] Found: about.google.com
+...
 ```
 
-**Disclaimer:**
+## Disclaimer:
 
 This script is for educational purposes only. Always use it responsibly and ethically. Do not scan targets without proper authorization.
 
-**Further Enhancements:**
+## Further Enhancements:
 
-- Use a more comprehensive subdomains wordlist.
-- Implement advanced thread management techniques (e.g., thread pool).
-- Add options for output formatting (e.g., saving results to a file).
-- Integrate with other tools and services for a more robust scanning solution.
+* Use a more comprehensive subdomains wordlist.
+* Implement multithreading for faster scanning (see the threaded version of this script).
+* Add options for output formatting (e.g., saving results to a file).
+* Integrate with other tools and services for a more robust scanning solution.
+* Add more robust error handling (e.g., handling different HTTP status codes).
