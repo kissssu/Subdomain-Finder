@@ -13,12 +13,13 @@ This Python script implements a simple subdomain finder using a wordlist. It's a
 * Python 3.x
 * `requests` library (install using `pip install requests`)
 
-## Usage:
+## How to Run on Your Local Machine:
 
-1. Save the script as `subdomain_finder.py`.
-2. Prepare a text file containing subdomains to check (e.g., "subdomains.txt"), one subdomain per line.
-3. Run the script from your terminal: `python subdomain_finder.py`
-4. The script will prompt you for the target domain and the path to the subdomains wordlist. It will then scan for subdomains and print the found ones.
+1. **Clone (Optional):** If the project is in a Git repository: `git clone `
+2. **Install `requests`:** `pip install requests`
+3. **Wordlist:** Create `subdomains.txt` (one subdomain per line).
+4. **Permissions (If needed):** `chmod +x subdomain_finder.py` (Linux/macOS).
+5. **Run:** `python subdomain_finder.py` (or `./subdomain_finder.py`).
 
 ## Example:
 ```
