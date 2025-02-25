@@ -42,3 +42,7 @@ This script is for educational purposes only. Always use it responsibly and ethi
 * Add options for output formatting (e.g., saving results to a file).
 * Integrate with other tools and services for a more robust scanning solution.
 * Add more robust error handling (e.g., handling different HTTP status codes).
+
+## Contributing:
+
+Contributions are welcome! Please submit pull requests for bug fixes, new features, or improvements.  Be professional and respectful in your contributions.  All contributions should adhere to the project's code style and be well-documented.  Thank you!
